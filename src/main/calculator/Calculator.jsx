@@ -1,28 +1,29 @@
 import React, {Component} from "react";
 import './Calculator.css'
+import Button from "../../components/button.jsx"
 
 export default class Calculator extends Component{
     render() {
         return (
             <div className="calculator">
-                <div className="title">Calculator</div>
-                <div className="result">Result</div>
-                <div className="zero">0</div>
-                <div className="one">1</div>
-                <div className="two">2</div>
-                <div className="three">3</div>
-                <div className="four">4</div>
-                <div className="five">5</div>
-                <div className="six">6</div>
-                <div className="seven">7</div>
-                <div className="eight">8</div>
-                <div className="nine">9</div>
-                <div className="plus">+</div>
-                <div className="minus">-</div>
-                <div className="mult">*</div>
-                <div className="div">%</div>
-                <div className="point">,</div>
-                <div className="equal">=</div>
+                <Button id="0"/>
+                <Button id="1"/>
+                <Button id="2"/>
+                <Button id="3" />
+                <Button id="4"/>
+                <Button id="5"/>
+                <Button id="6"/>
+                <Button id="7"/>
+                <Button id="8"/>
+                <Button id="9"/>
+                <Button id="10"/>
+                <Button id="11"/>
+                <Button id="12"/>
+                <Button id="13"/>
+                <Button id="14"/>
+                <Button id="15"/>
+                <Button id="16"/>
+                <Button id="17"/>
             </div>
         )
     }
