@@ -1,0 +1,9 @@
+#result{
+    grid-area: result;
+    background-color:rgba(226, 226, 226, 0.753);
+    justify-content: end;
+    color:black;
+    font-size: 1.3cm;
+    padding: 10px;
+    overflow: hidden;
+}

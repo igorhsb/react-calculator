@@ -4,8 +4,43 @@
 }
 
 .button{
-    font-size: 1.2cm;
+    font-size: 1.1cm;
     background-color: var(--bg-button);
     border: var(--border-button);
     outline: none;
+}
+
+#zero{ grid-area: zero;}
+#one{ grid-area: one;}
+#two{ grid-area: two;}
+#three{ grid-area: three;}
+#four{ grid-area: four;}
+#five{ grid-area: five;}
+#six{ grid-area: six;}
+#seven{ grid-area: seven;}
+#eight{ grid-area: eight;}
+#nine{ grid-area: nine;}
+#point{ grid-area: point;}
+#equal{ grid-area: equal;}
+#ac{ grid-area: ac;}
+
+#mod{ 
+    grid-area: mod;
+    background-color: coral;
+}
+#plus{ 
+    grid-area: plus;
+    background-color: coral;
+}
+#minus{ 
+    grid-area: minus;
+    background-color: coral;
+}
+#mult{ 
+    grid-area: mult;
+    background-color: coral;
+}
+#div{ 
+    grid-area: div;
+    background-color: coral;
 }

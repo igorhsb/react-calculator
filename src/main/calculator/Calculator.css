@@ -12,7 +12,6 @@
     height: 450px;
     width: 650px;
     border-radius: 5px;
-    background-color: blueviolet;
 }
 
 .calculator div{
@@ -27,28 +26,3 @@
     font-size: 30px;
     padding: 10px;
 }
-
-.result{
-    font-size: 25px;
-    padding: 10px;
-    grid-area: result;
-}
-
-#zero{ grid-area: zero;}
-#one{ grid-area: one;}
-#two{ grid-area: two;}
-#three{ grid-area: three;}
-#four{ grid-area: four;}
-#five{ grid-area: five;}
-#six{ grid-area: six;}
-#seven{ grid-area: seven;}
-#eight{ grid-area: eight;}
-#nine{ grid-area: nine;}
-#plus{ grid-area: plus;}
-#minus{ grid-area: minus;}
-#mult{ grid-area: mult;}
-#div{ grid-area: div;}
-#point{ grid-area: point;}
-#equal{ grid-area: equal;}
-#ac{ grid-area: ac;}
-#mod{ grid-area: mod;}
