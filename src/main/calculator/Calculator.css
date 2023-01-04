@@ -1,0 +1,100 @@
+.calculator{
+    display: grid;
+    grid-template-areas:
+        'title title title title'
+        'result result result result'
+        'seven eight nine div'
+        'four five six mult'
+        'one two three minus'
+        'zero point equal plus'
+        ;
+    gap: 20px;
+    padding: 10px;
+    height: 450px;
+    width: 650px;
+    border-radius: 5px;
+    background-color: blueviolet;
+}
+
+.calculator div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.title{
+    grid-area: title;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.result{
+    font-size: 25px;
+    padding: 10px;
+    grid-area: result;
+}
+
+.zero{
+    grid-area: zero;
+}
+
+.one{
+    grid-area: one;
+}
+
+.two{
+    grid-area: two;
+}
+
+.three{
+    grid-area: three;
+}
+
+.four{
+    grid-area: four;
+}
+
+.five{
+    grid-area: five;
+}
+
+.six{
+    grid-area: six;
+}
+
+.seven{
+    grid-area: seven;
+}
+
+.eight{
+    grid-area: eight;
+}
+
+.nine{
+    grid-area: nine;
+}
+
+.plus{
+    grid-area: plus;
+}
+
+.minus{
+    grid-area: minus;
+}
+
+.mult{
+    grid-area: mult;
+}
+
+.div{
+    grid-area: div;
+}
+
+.point{
+    grid-area: point;
+}
+
+.equal{
+    grid-area: equal;
+}
